@@ -1,0 +1,1 @@
+export const baseUrl = 'https://fintechdevapi.azurewebsites.net/api/';

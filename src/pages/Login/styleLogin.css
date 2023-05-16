@@ -1,0 +1,163 @@
+.formularioContenedor {
+  font-family: 'Inter';
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 2fr);
+  margin: 0;
+}
+
+.Nav_Login {
+  display: flex;
+  min-width: 840px;
+  height: 50px;
+  background-color: #101828;
+  color: #FFFFFF;
+  position: relative;
+  /* Gray/900 */
+
+  background: #101828;
+  /* Gray/600 */
+
+  border-bottom: 4px solid #475467;
+}
+
+.Nav_Login h3 {
+  position: absolute;
+  left: 6.25%;
+  right: 40.14%;
+  top: 22.25%;
+  bottom: -33.25%;
+}
+
+.iconLogin {
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  left: 2.58%;
+  right: 40.14%;
+  top: 30.25%;
+  bottom: -33.25%;
+  border-radius: 15%;
+}
+
+.FormularioLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TituloSesion {
+  margin: 0;
+  padding-top: 200px;
+  margin-bottom: 96px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.loginImagen {
+  background-image: url("../src/assets/Img/i3.webp");
+  background-repeat: no-repeat;
+  min-width: 1080px;
+  min-height: 100vh;
+  background-position: -390px -780px;
+  background-size: 1500px;
+}
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.css-dev-only-do-not-override-ed5zg0.ant-row {
+  /* display: inline-block; */
+  display: block;
+  flex-flow: row wrap;
+  min-width: 0;
+}
+
+label::after {
+  display: none;
+  font-family: 'Inter';
+}
+
+.css-dev-only-do-not-override-ed5zg0.ant-input-affix-wrapper {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 19px;
+  line-height: 24px;
+
+}
+
+.passworditem {
+  margin-bottom: 0;
+}
+
+.opciones {
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+
+.checkbox {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+}
+
+.login-form-forgot {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+  position: absolute;
+  width: 170px;
+  top: 6px;
+  left: 310px;
+  /* background-color: red;  */
+}
+
+@media (max-width: 480px) {
+  .formularioContenedor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loginImagen {
+    background-image: none;
+    /* background-repeat: no-repeat; */
+    /* min-width: 1080px; */
+    /* height: 929px; */
+    /* width: 100vw;
+    height: 100vh; */
+    /* background-position: 20px 30px; */
+    /* background-size:  100% 100%; */
+  }
+
+}
+
+/* Botones */
+.BotonIniciarSesion {
+  margin-top: 64px;
+  color: #FFFAEB;
+  background-color: #101828;
+  width: 480px;
+  height: 52px;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  border: 0;
+}
